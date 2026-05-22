@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Облачная медицинская система</title>
 
     <style>
+
         body{
             margin:0;
             font-family: Arial, sans-serif;
@@ -16,18 +19,18 @@
         header{
             background:#2563eb;
             color:white;
-            padding:40px;
+            padding:50px 20px;
             text-align:center;
         }
 
         header h1{
             margin:0;
-            font-size:40px;
+            font-size:42px;
         }
 
         header p{
-            margin-top:10px;
-            font-size:18px;
+            margin-top:15px;
+            font-size:20px;
         }
 
         .container{
@@ -35,6 +38,12 @@
             max-width:1100px;
             margin:auto;
             padding:40px 0;
+        }
+
+        h2{
+            text-align:center;
+            margin-bottom:30px;
+            color:#1e3a8a;
         }
 
         .cards{
@@ -48,20 +57,35 @@
             padding:25px;
             border-radius:12px;
             box-shadow:0 2px 10px rgba(0,0,0,0.1);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-5px);
         }
 
         .card h3{
             color:#2563eb;
+            margin-top:0;
         }
 
         .button{
             display:inline-block;
-            margin-top:20px;
+            margin-top:30px;
             background:#2563eb;
             color:white;
             padding:12px 24px;
             text-decoration:none;
             border-radius:8px;
+            font-weight:bold;
+        }
+
+        .button:hover{
+            background:#1d4ed8;
+        }
+
+        .center{
+            text-align:center;
         }
 
         footer{
@@ -71,54 +95,117 @@
             padding:20px;
             margin-top:40px;
         }
+
     </style>
+
 </head>
 
 <body>
 
-<header>
-    <h1>Облачная медицинская платформа</h1>
-    <p>Современный сервис для управления медицинскими данными</p>
-</header>
+    <header>
 
-<div class="container">
+        <h1>Облачная медицинская платформа</h1>
 
-    <div class="cards">
+        <p>
+            Современный сервис для управления медицинскими данными
+        </p>
 
-        <div class="card">
-            <h3>Безопасность</h3>
-            <p>
-                Система обеспечивает защиту и безопасность медицинской информации.
-            </p>
+    </header>
+
+    <div class="container">
+
+        <h2>Основные возможности системы</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>Безопасность</h3>
+
+                <p>
+                    Система обеспечивает защиту и безопасность медицинской информации.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Облачная инфраструктура</h3>
+
+                <p>
+                    Платформа развернута в облачной среде с использованием GitHub и Render.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Доступность</h3>
+
+                <p>
+                    Сервис доступен пользователям через интернет 24/7.
+                </p>
+
+            </div>
+
         </div>
 
-        <div class="card">
-            <h3>Облачная инфраструктура</h3>
-            <p>
-                Платформа развернута в облачной среде с использованием GitHub и Render.
-            </p>
-        </div>
+        <div class="center">
 
-        <div class="card">
-            <h3>Доступность</h3>
-            <p>
-                Сервис доступен пользователям через интернет 24/7.
-            </p>
+            <a href="#" class="button">
+                Начать работу
+            </a>
+
         </div>
 
     </div>
 
-    <center>
-        <a href="#" class="button">
-            Начать работу
-        </a>
-    </center>
+    <div class="container">
 
-</div>
+        <h2>Используемые технологии</h2>
 
-<footer>
-    Cloud Computing Project © 2026
-</footer>
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>GitHub</h3>
+
+                <p>
+                    Используется для хранения и управления исходным кодом проекта.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Render</h3>
+
+                <p>
+                    Используется для облачного развертывания веб-приложения.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>HTML / CSS</h3>
+
+                <p>
+                    Используются для создания пользовательского интерфейса системы.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        Cloud Computing Project © 2026
+
+    </footer>
 
 </body>
+
 </html>
